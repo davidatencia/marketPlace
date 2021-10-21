@@ -1,0 +1,107 @@
+<header class="header m-auto color-primary">
+  <div class="logo p-2">
+    <a [routerLink]="'/home'" class="ms-5"
+      ><img src="assets/build/img/logo.png" class="mt-1"
+    /></a>
+  </div>
+
+  <div class="buscador">
+    <form action="#">
+      <input
+        type="search"
+        name=""
+        placeholder="Buscar productos, marcas y más..."
+        class="w-100 p-1"
+      />
+      <button type="submit" class="nav-search-btn">
+        <div class="search"><i class="fas fa-search"></i></div>
+      </button>
+    </form>
+  </div>
+
+  <div class="aniversario">
+    <a href="">
+      <img src="assets/build/img/aniversario.webp" class="w-100" />
+    </a>
+  </div>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="dropdown">
+          <button
+            class="btn text-secondary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Categorías
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Vehiculos</a></li>
+            <li><a class="dropdown-item" href="#">Supermercado</a></li>
+            <li><a class="dropdown-item" href="#">Electrodomesticos</a></li>
+            <li><a class="dropdown-item" href="#">Hogar y muebles</a></li>
+            <li><a class="dropdown-item" href="#">Deportes y Fitnes</a></li>
+            <li>
+              <a class="dropdown-item" href="#">Belleza y cuidado personal</a>
+            </li>
+            <li><a class="dropdown-item" href="#">Herramientas</a></li>
+          </ul>
+        </div>
+
+        <li class="nav-item">
+          <a class="nav-link active text-secondary" aria-current="page" href="#"
+            >Ofertas</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a
+            [routerLink]="'/history'"
+            class="nav-link active text-secondary"
+            aria-current="page"
+            href="#"
+            >Historial</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active text-secondary" aria-current="page" href="#"
+            >Supermercado</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active text-secondary" aria-current="page" href="#"
+            >Moda</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active text-secondary" aria-current="page" href="#"
+            >Vender</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active text-secondary" aria-current="page" href="#"
+            >Ayuda/PQR</a
+          >
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="login">
+    <ul>
+      <li><a href="">Crear tu cuenta</a></li>
+      <li><a href="">Ingresa</a></li>
+      <li><a [routerLink]="'/shopping'">Mis compras</a></li>
+      <li>
+        <a [routerLink]="'/shopping-cart'"><i class="fas fa-shopping-cart"></i></a>
+      </li>
+    </ul>
+  </div>
+</header>

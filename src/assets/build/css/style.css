@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #ededed;
+}
+
+.text-secondary{
+    font-size: 14px;
+}
+
+.header{
+    height: 100px;
+}
+
+.header-login{
+    height: 56px;;
+}
+
+.color-primary {
+    background-color: #fff159;
+}
+
+.mt-negative{
+    margin-top: -5px;
+}
+
+.img-height{
+    height: 50px;
+    margin-bottom: -30px;
+}
+
+.color-succes{
+    color:#00a650;
+}
+
+.mg-bottom{
+    margin-bottom: -2px;
+}
+
+.buscador{
+    height: 45px;
+    width: 44%;
+    margin-top: -45px;
+    margin-left: 20%;
+}
+
+.section-login{
+    background-color: #f7f7f7;
+}
+
+input[type="search"]{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 8px !important;
+    background-color: #fff;
+    border: 0 rgba(0,0,0,.2);
+    outline: unset;
+}
+
+.search{
+    position: absolute;
+    top: 2.7%;
+    left: 60%;
+    padding-left: 10px;
+    border-left: 1px solid rgb(212, 203, 203);
+    outline: unset;
+    background-color: transparent !important;
+}
+
+.search .fas{
+    color: #666;
+}
+
+.aniversario{
+    display: block;
+    float: right;
+    width: 25%;
+    margin-top: -45px;
+    margin-right: 6%;
+}
+
+
+.mt-form{
+    margin-top: 2%;
+}
+
+.c-datos{
+    margin-top: 5%;
+    margin-left: 18.5%;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0%;
+}
+
+.info-card{
+    display: block;
+    font-size: 12px;
+    margin-top: -15px !important;
+    margin-left: 28px !important;
+}
+
+.info-card2{
+    display: block;
+    margin-left: 28px !important;
+    margin-bottom: 20px !important;
+}
+
+.font-2{
+    font-size: 18px;
+    margin-bottom: 20px !important;
+}
+
+.font-3{
+    font-size: 12px;
+}
+
+.c-datos-2{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 10%;
+}
+
+.btn-login{
+    margin-top: 30px;
+    margin-left: 18.5%;
+}
+
+.btn-continue{
+    width: 95%;
+    margin-left: 10px;
+}
+
+.card-form{
+    width: 63% !important;
+    padding: 2%;
+    margin-bottom: 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+
+.card-form-2{
+    width: 40% !important;
+    padding: 4%;
+}
+
+.navbar{
+   display: block;
+   width: 45%;
+   margin-left: 20.5%;
+   margin-right: 0;
+   max-width: 785px;
+}
+
+.login>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -40px;
+    margin-right: 70px;
+}
+
+.login>ul>li{
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.login>ul>li>a{
+    font-size: 14px;
+    color:black;
+    text-decoration: none;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: 3% !important;
+    height: 65px;
+    border-radius: 5px;
+    top: 40%;
+    opacity: 1;
+}
+
+.card, .card-group{
+    width: 88%;
+}
+
+.col>span{
+    font-size: 17px;
+}
+
+.col>span>a{
+    display: block;
+    margin-top: -15px;
+    margin-left: 52px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.title{
+    font-size: 26px;
+    font-weight: 300;
+    margin-left: 6%;
+}
+
+.title>a{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.card.category{
+    text-align: center;
+    border-bottom: 1px solid #eae6e6;
+}
+
+.card.category{
+    border: none;
+    border-right: 1px solid #eae6e6;
+}
+
+.card.category-2{
+    border: none;
+}
+
+.category-icon{
+    margin: 10px auto;
+    font-size: 70px;
+}
+
+.card-body.category:hover{
+    background-color: #3483fa;
+    color: white;
+}
+
+hr{
+   color: gray
+}
+
+.card-information:hover{
+    transition: box-shadow .1s ease-out;
+    box-shadow: 0 7px 16px 0 rgb(0 0 0 / 20%), 0 1px 3px 0 rgb(0 0 0 / 10%);
+}
+
+.send{
+    margin-top: -12px;
+    color: #00a650;
+}
+
+.img-card{
+    height: 35%;
+}
+
+.img-card-body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+    margin-top: -20%;
+}
+
+.h2-mp{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.btn-backtobuy{
+    background-color: rgba(65,137,230,.15);
+}
+
+.h2-historial{
+    display: flex;
+    margin-left: 6%;
+    margin-top: 50px;
+}
+
+.fecha{
+    margin-left: 6%;
+}
+
+.content{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.content.ultimo{
+    margin-bottom: 10%;
+}
+
+.parrafo{
+    font-size: 13px;
+}
+
+.copyright-p{
+    font-size: 12px;
+    margin-left: 10px;
+}
