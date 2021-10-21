@@ -1,0 +1,653 @@
+<div>
+  <!-- Banner -->
+
+  <div
+    id="carouselExampleControls"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="assets/build/img/aniversario-banner.webp"
+          class="d-block w-100"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="assets/build/img/aniversario-celulares.webp"
+          class="d-block w-100"
+        />
+      </div>
+      <div class="carousel-item">
+        <img src="assets/build/img/ofertas.webp" class="d-block w-100" />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleControls"
+      data-bs-slide="prev"
+    >
+      <span
+        class="carousel-control-prev-icon text-primary"
+        aria-hidden="true"
+      ></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleControls"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="card m-auto mt-5">
+    <div class="card-body">
+      <div class="row">
+        <div class="col">
+          <img src="assets/build/img/credit-card.svg" />
+          <span
+            >Hasta 48 Cuotas<a [routerLink]="'/payment-methods'" class=""
+              >Ver más</a
+            ></span
+          >
+        </div>
+
+        <div class="col">
+          <img src="assets/build/img/transfer.svg" />
+          <span
+            >Transferencia desde banco<a
+              [routerLink]="'/payment-methods'"
+              class=""
+              >Ver más</a
+            ></span
+          >
+        </div>
+
+        <div class="col">
+          <img src="assets/build/img/payment-agreement.svg" />
+          <span
+            >Paga en efectivo<a [routerLink]="'/payment-methods'" class=""
+              >Ver más</a
+            ></span
+          >
+        </div>
+
+        <div class="col">
+          <img src="assets/build/img/view-more.svg" />
+          <span
+            >Más medios de pago<a [routerLink]="'/payment-methods'" class=""
+              >Ver más</a
+            ></span
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Historial -->
+
+  <div class="title mt-5 mb-1">
+    Relacionado con tus visitas en Electrónica, Audio y Video
+    <a href="historial.html">Ver historial</a>
+  </div>
+
+  <div class="card-group m-auto mt-3 mb-4">
+    <div class="card">
+      <a [routerLink]="'/product-details'" class="text-decoration-none">
+        <img
+          src="https://picsum.photos/224/224"
+          class="card-img-top w-100 p-3"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            <small class="text-muted fs-4">$75.000</small>
+          </p>
+          <span class="card-text d-flex send">Envio gratis</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="card ms-3">
+      <a [routerLink]="'/product-details'" class="text-decoration-none">
+        <img
+          src="https://picsum.photos/224/224"
+          class="card-img-top w-100 p-3"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            <small class="text-muted fs-4">$75.000</small>
+          </p>
+          <span class="card-text d-flex send">Envio gratis</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="card ms-3">
+      <a [routerLink]="'/product-details'" class="text-decoration-none">
+        <img
+          src="https://picsum.photos/224/224"
+          class="card-img-top w-100 p-3"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            <small class="text-muted fs-4">$75.000</small>
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <div class="card ms-3">
+      <a [routerLink]="'/product-details'" class="text-decoration-none">
+        <img
+          src="https://picsum.photos/224/224"
+          class="card-img-top w-100 p-3"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            <small class="text-muted fs-4">$75.000</small>
+          </p>
+          <span class="card-text d-flex send">Envio gratis</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="card ms-3">
+      <a [routerLink]="'/product-details'" class="text-decoration-none">
+        <img
+          src="https://picsum.photos/224/224"
+          class="card-img-top w-100 p-3"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            <small class="text-muted fs-4">$75.000</small>
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Ofertas -->
+
+  <div class="title mt-5 mb-1">
+    Oferta <a [routerLink]="'/product-details'">Ver todas</a>
+  </div>
+
+  <div class="card-group m-auto mt-3 mb-4">
+    <div class="card">
+      <a [routerLink]="'/product-details'" class="text-decoration-none">
+        <img
+          src="https://picsum.photos/224/224"
+          class="card-img-top w-100 p-3"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            <small class="text-muted fs-4">$75.000</small>
+          </p>
+          <span class="card-text d-flex send">Envio gratis</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="card ms-3">
+      <a [routerLink]="'/product-details'" class="text-decoration-none">
+        <img
+          src="https://picsum.photos/224/224"
+          class="card-img-top w-100 p-3"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            <small class="text-muted fs-4">$75.000</small>
+          </p>
+          <span class="card-text d-flex send">Envio gratis</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="card ms-3">
+      <a [routerLink]="'/product-details'" class="text-decoration-none">
+        <img
+          src="https://picsum.photos/224/224"
+          class="card-img-top w-100 p-3"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            <small class="text-muted fs-4">$75.000</small>
+          </p>
+          <span class="card-text d-flex send">Envio gratis</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="card ms-3">
+      <a [routerLink]="'/product-details'" class="text-decoration-none">
+        <img
+          src="https://picsum.photos/224/224"
+          class="card-img-top w-100 p-3"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            <small class="text-muted fs-4">$75.000</small>
+          </p>
+          <span class="card-text d-flex send">Envio gratis</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="card ms-3">
+      <a [routerLink]="'/product-details'" class="text-decoration-none">
+        <img
+          src="https://picsum.photos/224/224"
+          class="card-img-top w-100 p-3"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            <small class="text-muted fs-4">$75.000</small>
+          </p>
+          <span class="card-text d-flex send">Envio gratis</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Tiendas -->
+
+  <div class="title mt-5 mb-1">
+    Las mejores tiendas te esperan
+    <a [routerLink]="'/product-details'">Ver tiendas</a>
+  </div>
+
+  <div class="card-group m-auto mt-3 mb-4">
+    <div class="card card-information">
+      <img
+        src="https://picsum.photos/80/80"
+        class="card-img-top w-100 p-3 img-card"
+      />
+      <a
+        [routerLink]="'/product-details'"
+        class="text-decoration-none card-group-a"
+      >
+        <div class="card-body img-card-body">
+          <img
+            src="assets/build/img/epson.webp"
+            width="80"
+            height="80"
+            class="rounded"
+          />
+          <p class="text-dark fs-4">EPSON</p>
+          <div class="">
+            <a [routerLink]="'/product-details'"
+              ><img
+                src="assets/build/img/auriculares.webp"
+                width="70"
+                height="70"
+            /></a>
+            <a [routerLink]="'/product-details'"
+              ><img
+                src="assets/build/img/auriculares.webp"
+                width="70"
+                height="70"
+            /></a>
+            <a [routerLink]="'/product-details'"
+              ><img
+                src="assets/build/img/auriculares.webp"
+                width="70"
+                height="70"
+            /></a>
+            <a
+              [routerLink]="'/product-details'"
+              class="d-flex text-decoration-none justify-content-center"
+              >Ver tienda</a
+            >
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="card card-information ms-3">
+      <img
+        src="https://picsum.photos/80/80"
+        class="card-img-top w-100 p-3 img-card"
+      />
+      <a
+        [routerLink]="'/product-details'"
+        class="text-decoration-none card-group-a"
+      >
+        <div class="card-body img-card-body">
+          <img
+            src="assets/build/img/epson.webp"
+            width="80"
+            height="80"
+            class="rounded"
+          />
+          <p class="text-dark fs-4">EPSON</p>
+          <div class="">
+            <a [routerLink]="'/product-details'"
+              ><img
+                src="assets/build/img/auriculares.webp"
+                width="70"
+                height="70"
+            /></a>
+            <a [routerLink]="'/product-details'"
+              ><img
+                src="assets/build/img/auriculares.webp"
+                width="70"
+                height="70"
+            /></a>
+            <a [routerLink]="'/product-details'"
+              ><img
+                src="assets/build/img/auriculares.webp"
+                width="70"
+                height="70"
+            /></a>
+            <a
+              [routerLink]="'/product-details'"
+              class="d-flex text-decoration-none justify-content-center"
+              >Ver tienda</a
+            >
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="card card-information ms-3">
+      <img
+        src="https://picsum.photos/80/80"
+        class="card-img-top w-100 p-3 img-card"
+      />
+      <a
+        [routerLink]="'/product-details'"
+        class="text-decoration-none card-group-a"
+      >
+        <div class="card-body img-card-body">
+          <img
+            src="assets/build/img/epson.webp"
+            width="80"
+            height="80"
+            class="rounded"
+          />
+          <p class="text-dark fs-4">EPSON</p>
+          <div class="">
+            <a [routerLink]="'/product-details'"
+              ><img
+                src="assets/build/img/auriculares.webp"
+                width="70"
+                height="70"
+            /></a>
+            <a [routerLink]="'/product-details'"
+              ><img
+                src="assets/build/img/auriculares.webp"
+                width="70"
+                height="70"
+            /></a>
+            <a [routerLink]="'/product-details'"
+              ><img
+                src="assets/build/img/auriculares.webp"
+                width="70"
+                height="70"
+            /></a>
+            <a
+              [routerLink]="'/product-details'"
+              class="d-flex text-decoration-none justify-content-center"
+              >Ver tienda</a
+            >
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="card card-information ms-3">
+      <img
+        src="https://picsum.photos/80/80"
+        class="card-img-top w-100 p-3 img-card"
+      />
+      <a
+        [routerLink]="'/product-details'"
+        class="text-decoration-none card-group-a"
+      >
+        <div class="card-body img-card-body">
+          div
+          <img
+            src="assets/build/img/epson.webp"
+            width="80"
+            hdiveight="80"
+            class="rounded"
+          />
+          <p class="text-dark fs-4">EPSON</p>
+          div
+          <div class="">
+            <a [routerLink]="'/product-details'"
+              ><img
+                src="assets/build/img/auriculares.webp"
+                width="70"
+                height="70"
+            /></a>
+            <a [routerLink]="'/product-details'"
+              ><img
+                src="assets/build/img/auriculares.webp"
+                width="70"
+                height="70"
+            /></a>
+            <a [routerLink]="'/product-details'"
+              ><img
+                src="assets/build/img/auriculares.webp"
+                width="70"
+                height="70"
+            /></a>
+            <a
+              [routerLink]="'/product-details'"
+              class="d-flex text-decoration-none justify-content-center"
+              >Ver tienda</a
+            >
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Puede interesarte -->
+
+  <div class="title mt-5 mb-1">
+    También puede interesarte
+    <a [routerLink]="'/product-details'">Ver historial</a>
+  </div>
+
+  <div class="card-group m-auto mt-3 mb-4">
+    <div class="card">
+      <a [routerLink]="'/product-details'" class="text-decoration-none">
+        <img
+          src="https://picsum.photos/224/224"
+          class="card-img-top w-100 p-3"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            <small class="text-muted fs-4">$75.000</small>
+          </p>
+          <span class="card-text d-flex send">Envio gratis</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="card ms-3">
+      <a [routerLink]="'/product-details'" class="text-decoration-none">
+        <img
+          src="https://picsum.photos/224/224"
+          class="card-img-top w-100 p-3"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            <small class="text-muted fs-4">$75.000</small>
+          </p>
+          <span class="card-text d-flex send">Envio gratis</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="card ms-3">
+      <a [routerLink]="'/product-details'" class="text-decoration-none">
+        <img
+          src="https://picsum.photos/224/224"
+          class="card-img-top w-100 p-3"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            <small class="text-muted fs-4">$75.000</small>
+          </p>
+          <span class="card-text d-flex send">Envio gratis</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="card ms-3">
+      <a [routerLink]="'/product-details'" class="text-decoration-none">
+        <img
+          src="https://picsum.photos/224/224"
+          class="card-img-top w-100 p-3"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            <small class="text-muted fs-4">$75.000</small>
+          </p>
+          <span class="card-text d-flex send">Envio gratis</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="card ms-3">
+      <a [routerLink]="'/product-details'" class="text-decoration-none">
+        <img
+          src="https://picsum.photos/224/224"
+          class="card-img-top w-100 p-3"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            <small class="text-muted fs-4">$75.000</small>
+          </p>
+          <span class="card-text d-flex send">Envio gratis</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Categorías populares -->
+
+  <div class="title mt-5 mb-1">Categorías populares</div>
+
+  <div class="card category m-auto mt-3 mb-4">
+    <div class="row category row-cols-1 row-cols-md-4 g-1">
+      <div class="col">
+        <a href="accesorios.html" class="category-popular text-decoration-none">
+          <div class="card category">
+            <div class="card-body category">
+              <i class="fas fa-car category-icon"></i>
+              <p class="card-text">Carros, motos y Otros</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col">
+        <a
+          [routerLink]="'/product-details'"
+          class="category-popular text-decoration-none"
+        >
+          <div class="card category">
+            <div class="card-body category">
+              <i class="fas fa-desktop category-icon"></i>
+              <p class="card-text">Computación</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col">
+        <a
+          [routerLink]="'/product-details'"
+          class="category-popular text-decoration-none"
+        >
+          <div class="card category">
+            <div class="card-body category">
+              <i class="fas fa-tshirt category-icon"></i>
+              <p class="card-text">Ropa y Accesorios</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col">
+        <a
+          [routerLink]="'/product-details'"
+          class="category-popular text-decoration-none"
+        >
+          <div class="card category-2">
+            <div class="card-body category">
+              <i class="fas fa-chair category-icon"></i>
+              <p class="card-text">Hogar y muebles</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col">
+        <a
+          [routerLink]="'/product-details'"
+          class="category-popular text-decoration-none"
+        >
+          <div class="card category">
+            <div class="card-body category">
+              <i class="fas fa-mobile-alt category-icon"></i>
+              <p class="card-text">Celulares y teléfonos</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col">
+        <a
+          [routerLink]="'/product-details'"
+          class="category-popular text-decoration-none"
+        >
+          <div class="card category">
+            <div class="card-body category">
+              <i class="fas fa-microphone category-icon"></i>
+              <p class="card-text">Electrónica</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col">
+        <a
+          [routerLink]="'/product-details'"
+          class="category-popular text-decoration-none"
+        >
+          <div class="card category">
+            <div class="card-body category">
+              <i class="far fa-futbol category-icon"></i>
+              <p class="card-text">Deportes y Fitness</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col">
+        <a
+          [routerLink]="'/product-details'"
+          class="category-popular text-decoration-none"
+        >
+          <div class="card category-2">
+            <div class="card-body category">
+              <i class="fas fa-hammer category-icon"></i>
+              <p class="card-text">Herramientas</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
